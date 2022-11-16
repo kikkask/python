@@ -1,4 +1,4 @@
-# Calculadora em Python
+# Calculadora em Python feita por Lucas Brito (kikkask)
 print("***************** Calculadora em Python *****************")
 #Definindo as funções
 def add(x,y):
