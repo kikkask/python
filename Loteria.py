@@ -8,6 +8,7 @@ def check_interval(numero):
   return 1 <= numero <= 15
 
 def valida_entrada():
+  """ essa função valida a entrada do usuário para garantir a integridade do nosso código. """
   while True:
     numero = check_input()
 if type(numero) != int:
