@@ -1,3 +1,5 @@
+import random
+
 def check_input():
   try:
     return int(input("Entre com um número entre 1 e 15: "))
@@ -19,7 +21,7 @@ if type(numero) != int:
 if check_interval(numero):
   return numero
 
-numero_sorte = 7
+numero_sorte = random.randint(1,15)
 
 for i in range(3):
 
