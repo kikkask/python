@@ -5,6 +5,8 @@ def check_input():
     return "Eu pedi um número, fiote"
 
 def check_interval(numero):
+  """ checa se o número passado está entre o intervalo de 1 e 15, considerando ambos
+  numero: int"""
   return 1 <= numero <= 15
 
 def valida_entrada():
